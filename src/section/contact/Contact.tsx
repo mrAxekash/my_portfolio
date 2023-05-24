@@ -28,10 +28,10 @@ export const Contact = (props: Props) => {
                             variant="standard"
                             fullWidth
                         />
-                        <button className={contactStyle.button}> Send  &#8594; </button>
+
                     </form>
                 </div>
-
+                <button className={contactStyle.button}> Send  &#8594; </button>
             </div>
         </section>
     );
