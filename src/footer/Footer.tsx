@@ -9,7 +9,7 @@ export const Footer = (props: Props) => {
         <footer className={footerStyle.footer}>
             <div className={containerStyle.container}>
                 <div className={footerStyle.wrapper}>
-                    <h2 className={footerStyle.footer_title}>Alexandr Kuchutkov</h2>
+                    {/*<h2 className={footerStyle.footer_title}>Alexandr Kuchutkov</h2>*/}
                     <Socials />
                     <h3 className={footerStyle.footer_subtitle}>Copyright © 2023 </h3>
                 </div>
