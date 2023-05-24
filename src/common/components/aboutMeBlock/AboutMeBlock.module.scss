@@ -1,0 +1,34 @@
+
+.wrapperUpperblock {
+  width: 25vw;
+}
+
+.blockTitle {
+  color: #6c757d;
+  font-weight: 500;
+  line-height: 1.8;
+  font-size: 1rem;
+  margin: 0;
+  text-align: left;
+}
+
+.blockText {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 1046px) {
+  .wrapperUpperblock {
+    width: 40vw;
+
+  }
+  .blockTitle {
+    //text-align: center;
+  }
+  .blockText {
+    //text-align: center;
+  }
+}

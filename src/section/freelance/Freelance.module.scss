@@ -1,0 +1,28 @@
+.freelance {
+    min-height: 30vh;
+    padding: 6.5rem 0;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        opacity: 0.5;
+        z-index: 0;
+    }
+    .button {
+        display: inline-block;
+        padding: 13px 42px;
+        background-color: #f5df4e;
+        text-decoration: none;
+        transition: 1s ease-in;
+        color: black;
+        &:hover {
+            background-color: #ead53f;
+            transition: 1s ease-in;
+        }
+    }
+}

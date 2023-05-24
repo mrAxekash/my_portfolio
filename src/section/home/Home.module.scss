@@ -1,0 +1,133 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  flex-wrap: wrap;
+
+  .textWrapper {
+    margin: 40px 0;
+
+    .title {
+      /*font-size: 1.75rem;*/
+      font-size: 3rem;
+      margin: 0;
+      font-weight: 300;
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 6rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    .subsubtitle {
+      font-size: 1.3125rem;
+      margin: 0;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
+
+    .blackButton {
+      background-color: #212529;
+      color: #fff;
+      width: 200px;
+      height: 40px;
+      margin-top: 10px;
+      &:hover {
+        //background-color: black;
+        transition: 0.5s ease-in;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+      }
+    }
+
+    .whiteButton {
+      background-color: #f5df4e;
+      color: #000;
+      width: 200px;
+      height: 40px;
+      border: 0px;
+      margin-top: 10px;
+      text-decoration: underline;
+      &:hover {
+        background-color: #f5df4e;
+        transition: 1s ease-in;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .homeImage {
+    width: 455px;
+    height: 455px;
+    background-color: red;
+    border-radius: 100%;
+    border: 16px solid white;
+    margin: 40px 0;
+  }
+
+  @media screen and (max-width: 1290px) {
+    .homeImage {
+      width: 390px;
+      height: 390px;
+    }
+    .textWrapper {
+      .title {
+        font-size: calc(1.75rem);
+      }
+      .subtitle {
+        font-size: calc(1.75rem + 4.45vw);
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .homeImage {
+      width: 350px;
+      height: 350px;
+    }
+    .textWrapper {
+      .title {
+        font-size: calc(1.3125rem);
+      }
+
+      .subtitle {
+        font-size: calc(1.3125rem + 3.5vw);
+      }
+
+      .subsubtitle {
+        font-size: 1rem;
+      }
+
+      .blackButton {
+        width: 150px;
+      }
+
+      .whiteButton {
+        width: 150px;
+      }
+    }
+
+  }
+  @media screen and (max-width: 813px) {
+    .homeImage {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    .textWrapper {
+      .title {
+        font-size: calc(0.8rem + 0.5vw)
+      }
+    }
+    .homeImage {
+      width: calc(100px + 45vw);
+      height: calc(100px + 45vw);
+      margin: 80px 0 0 0;
+    }
+  }
+}

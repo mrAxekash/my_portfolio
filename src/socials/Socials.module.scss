@@ -1,0 +1,27 @@
+.socials {
+    display: flex;
+    width: 148px;
+    justify-content: space-between;
+    .socialNetwork {
+        width: 26px;
+        height: 26px;
+        .socialLinks {
+            text-decoration: none;
+        }
+        .iconStyle {
+            /*width: 100%;*/
+            height: 100%;
+            color: #4d555a;
+            transition: 0.5s;
+            &:hover {
+                transform: scale(1.2);
+                color: #0d6efd
+            }
+        }
+    }
+
+}
+
+
+
+
