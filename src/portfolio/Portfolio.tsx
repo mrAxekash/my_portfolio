@@ -1,6 +1,6 @@
 import * as React from "react";
-import portfolioStyle from "./Portfolio.module.css"
-import containerStyle from "../common/container/Container.module.css";
+import portfolioStyle from "./Portfolio.module.scss"
+import containerStyle from "../common/container/Container.module.scss";
 import {SectionTItle} from "../common/components/title/SectionTItle";
 import {Project} from "./project/Project";
 import project1Img from "../assets/image/project-1.jpg"
@@ -15,7 +15,7 @@ export const Portfolio = (props: Props) => {
     return (
         <section className={portfolioStyle.section}>
             <div className={containerStyle.container}>
-                <SectionTItle sectionTitle={'Portfolio'} header={'Some of my most recent project'}/>
+                <SectionTItle sectionTitle={'Portfolio'} header={'Some of my most recent project'} textColor={'black'}/>
                 <div className={portfolioStyle.wrapper}>
                     <Project picture={projectSocialNetwork} />
                     <Project picture={project1Img} />

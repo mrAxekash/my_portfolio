@@ -1,5 +1,5 @@
 import * as React from 'react';
-import containerStyle from "../../common/container/Container.module.css";
+import containerStyle from "../../common/container/Container.module.scss";
 import aboutMeStyle from './AboutMe.module.scss'
 import {SectionTItle} from "../../common/components/title/SectionTItle";
 import {AbloutMeBlock} from "../../common/components/aboutMeBlock/AbloutMeBlock";
@@ -9,7 +9,7 @@ export const AboutMe = (props: Props) => {
 	return (
 		<section className={aboutMeStyle.aboutMe}>
 			<div className={containerStyle.container}>
-				<SectionTItle sectionTitle={'About me'} header={'Know me more'}/>
+				<SectionTItle sectionTitle={'About me'} header={'Know me more'} textColor={'black'}/>
 				<div className={aboutMeStyle.wrapperBlock1}>
 					<div className={aboutMeStyle.wrapper_description}>
 						<h2>Hi, I'm <span>Alexandr Kuchutkov</span></h2>

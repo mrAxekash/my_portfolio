@@ -2,7 +2,7 @@ import * as React from 'react';
 import headerStyle from './Header.module.scss'
 import {Nav} from "../nav/Nav";
 import {Socials} from "../socials/Socials";
-import containerStyle from '../common/container/Container.module.css'
+import containerStyle from '../common/container/Container.module.scss'
 
 
 type Props = {

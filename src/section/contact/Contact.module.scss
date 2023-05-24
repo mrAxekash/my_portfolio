@@ -1,22 +1,27 @@
 .contact {
-    padding: 6.5rem 0;
-    background-color: #f5df4e;
-}
-.formStyle {
+  padding: 6.5rem 0;
+  background-color: #f5df4e;
+
+  .title {
+    margin: 0 0 48px 0;
+    font-size: 2.5rem;
+  }
+
+  .formStyle {
     display: flex;
     justify-content: center;
+    .formWrapper {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      width: 660px;
+    }
+    textarea {
+      width: 260px;
+    }
+  }
 
-}
-.formWrapper {
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    width: 660px;
-}
-/*.formStyle label {*/
-/*    display: block;*/
-/*}*/
-.button {
+  .button {
     width: 163px;
     height: 54px;
     margin-top: 24px;
@@ -24,18 +29,16 @@
     color: white;
     font-weight: 500;
     font-size: 1rem;
+
     &:hover {
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
     }
-}
-.title {
-    margin: 0 0 48px 0;
-    font-size: 2.5rem;
-}
-.formStyle textarea {
-    width: 260px;
-}
-.changedInput {
+  }
 
 }
 
+
+
+/*.formStyle label {*/
+/*    display: block;*/
+/*}*/

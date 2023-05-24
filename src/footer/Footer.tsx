@@ -1,6 +1,6 @@
 import * as React from 'react';
-import footerStyle from './Footer.module.css'
-import containerStyle from "../common/container/Container.module.css";
+import footerStyle from './Footer.module.scss'
+import containerStyle from "../common/container/Container.module.scss";
 import {Socials} from "../socials/Socials";
 
 type Props = {};

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import skillsSectionStyle from './SectionTitle.module.css'
+import skillsSectionStyle from './SectionTitle.module.scss'
 
 
 type Props = {

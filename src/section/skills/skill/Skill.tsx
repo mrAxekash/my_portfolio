@@ -1,5 +1,5 @@
 import * as React from 'react';
-import skillStyle from './Skill.module.css'
+import skillStyle from './Skill.module.scss'
 
 
 type Props = {
@@ -8,6 +8,7 @@ type Props = {
     description: string
     icon?: any
 };
+
 export const Skill = (props: Props) => {
     return (
         <div className={skillStyle.skill_container}>

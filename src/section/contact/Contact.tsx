@@ -1,6 +1,6 @@
 import * as React from 'react';
 import contactStyle from './Contact.module.scss'
-import containerStyle from "../../common/container/Container.module.css";
+import containerStyle from "../../common/container/Container.module.scss";
 import TextField from '@mui/material/TextField/TextField';
 
 type Props = {

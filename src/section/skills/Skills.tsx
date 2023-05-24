@@ -1,7 +1,7 @@
 import * as React from 'react';
-import skillsStyle from './Skills.module.css'
+import skillsStyle from './Skills.module.scss'
 import {SectionTItle} from "../../common/components/title/SectionTItle";
-import containerStyle from "../../common/container/Container.module.css";
+import containerStyle from "../../common/container/Container.module.scss";
 import { Skill } from './skill/Skill';
 import reduxIcon from '../../assets/icons/redux.svg'
 import htmlIcon from '../../assets/icons/htmlIcon.svg'
@@ -29,7 +29,7 @@ export const Skills = (props: Props) => {
     return (
         <section className={skillsStyle.skills}>
             <div className={containerStyle.container}>
-                <SectionTItle sectionTitle={'Skills'} header={'I work in ...'}/>
+                <SectionTItle sectionTitle={'Skills'} header={'I work in ...'} textColor={'black'}/>
                 <div className={skillsStyle.skills_wrapper}>
                     <Skill imgText={"React"} title={"React"} description={reactDescr} icon={reactIcon}/>
                     <Skill imgText={"Redux"} title={"Redux"} description={reduxDescr} icon={reduxIcon} />

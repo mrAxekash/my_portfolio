@@ -1,6 +1,6 @@
 import * as React from 'react';
 import freelanceStyle from './Freelance.module.scss'
-import containerStyle from "../../common/container/Container.module.css";
+import containerStyle from "../../common/container/Container.module.scss";
 import backGImage from '../../assets/image/intro-bg-2.jpg'
 import {SectionTItle} from "../../common/components/title/SectionTItle";
 

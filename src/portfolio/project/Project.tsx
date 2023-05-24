@@ -1,5 +1,5 @@
 import * as React from 'react';
-import projectStyle from './Project.module.css'
+import projectStyle from './Project.module.scss'
 import {ProjectOverlay} from "../../common/components/button/ProjectOverlay";
 
 type ProjectPropsType = {
