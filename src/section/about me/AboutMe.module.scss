@@ -1,3 +1,5 @@
+@import "./src/common/sass/variables";
+
 .aboutMe {
   padding: 6.5rem 0;
 
@@ -19,7 +21,7 @@
 
         span {
           font-weight: 900;
-          border-bottom: 4px solid #f5df4e;
+          border-bottom: 4px solid $primaryColor;
         }
       }
 
@@ -45,7 +47,7 @@
 
         div {
           position: absolute;
-          background-color: #f5df4e;
+          background-color: $primaryColor;
           border-radius: 100%;
           width: 175px;
           height: 175px;

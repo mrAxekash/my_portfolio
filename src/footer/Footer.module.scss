@@ -1,18 +1,20 @@
+@import "src/common/sass/variables";
+
 .footer {
   padding: 1rem 0;
-  background-color: black;
+  background-color: $bgThirdColor;
 
   div {
     margin: 10px auto;
   }
 
   .footer_title {
-    color: white;
+    color: $secondTextColor;
     margin: 0;
   }
 
   .footer_subtitle {
-    color: white;
+    color: $secondTextColor;
     margin: 0;
   }
 }

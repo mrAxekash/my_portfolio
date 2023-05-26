@@ -1,3 +1,5 @@
+@import "./src/common/sass/variables";
+
 .freelance {
     min-height: 30vh;
     padding: 6.5rem 0;
@@ -9,19 +11,19 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: black;
+        background-color: $bgThirdColor;
         opacity: 0.5;
         z-index: 0;
     }
     .button {
         display: inline-block;
         padding: 13px 42px;
-        background-color: #f5df4e;
+        background-color: $primaryColor;
         text-decoration: none;
         transition: 1s ease-in;
-        color: black;
+        color: $textColor;
         &:hover {
-            background-color: #ead53f;
+            background-color: $primaryColor;
             transition: 1s ease-in;
         }
     }

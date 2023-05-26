@@ -1,3 +1,5 @@
+@import "./src/common/sass/variables";
+
 .home {
   display: flex;
   align-items: center;
@@ -31,28 +33,28 @@
     }
 
     .blackButton {
-      background-color: #212529;
-      color: #fff;
+      background-color: $bgButtonColor;
+      color: $secondTextColor;
       width: 200px;
       height: 40px;
       margin-top: 10px;
       &:hover {
         //background-color: black;
         transition: 0.5s ease-in;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 5px 15px $bgHoverButtonColor;
       }
     }
 
     .whiteButton {
-      background-color: #f5df4e;
-      color: #000;
+      background-color: $primaryColor;
+      color: $textColor;
       width: 200px;
       height: 40px;
       border: 0px;
       margin-top: 10px;
       text-decoration: underline;
       &:hover {
-        background-color: #f5df4e;
+        background-color: $primaryColor;
         transition: 1s ease-in;
         text-decoration: none;
       }
@@ -62,7 +64,7 @@
   .homeImage {
     width: 455px;
     height: 455px;
-    background-color: red;
+    //background-color: red;
     border-radius: 100%;
     border: 16px solid white;
     margin: 40px 0;

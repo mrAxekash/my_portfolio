@@ -1,9 +1,11 @@
+@import './src/common/sass/variables';
+
 .header{
     position: fixed;
     min-height: 66px;
     width: 100%;
     /*background-color: #f5df4e;*/
-    background-color: #fff;
+    background-color: $secondTextColor;
     display: flex;
     align-items: center;
     z-index: 5;
