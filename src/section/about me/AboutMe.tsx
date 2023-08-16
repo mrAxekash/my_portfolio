@@ -3,7 +3,7 @@ import containerStyle from "../../common/container/Container.module.scss";
 import aboutMeStyle from './AboutMe.module.scss'
 import {SectionTItle} from "../../common/components/title/SectionTItle";
 import {AbloutMeBlock} from "../../common/components/aboutMeBlock/AbloutMeBlock";
-import {AttentionSeeker, Fade, Reveal, Zoom} from "react-awesome-reveal";
+import {AttentionSeeker, Fade} from "react-awesome-reveal";
 
 type Props = {};
 export const AboutMe = (props: Props) => {
@@ -14,7 +14,7 @@ export const AboutMe = (props: Props) => {
                     <SectionTItle sectionTitle={'About me'} header={'Know me more'} textColor={'black'}/>
                 </Fade>
 
-                <Fade direction={'up'}>
+                <Fade direction={'up'} triggerOnce={true}>
                     <div className={aboutMeStyle.wrapperBlock1}>
                         <div className={aboutMeStyle.wrapper_description}>
                             <h2>Hi, I'm <span>Alexandr Kuchutkov</span></h2>
@@ -27,29 +27,26 @@ export const AboutMe = (props: Props) => {
                         </div>
                         <div className={aboutMeStyle.wrapper_box}>
                             {/*<div>*/}
-                                <div>
-                                    <AttentionSeeker effect={'pulse'} delay={1500} triggerOnce={true}>
+                            <div>
+                                <AttentionSeeker effect={'pulse'} delay={1500} triggerOnce={true}>
 
-                                        <AttentionSeeker effect={'pulse'} delay={500} triggerOnce={true} >
+                                    <AttentionSeeker effect={'pulse'} delay={500} triggerOnce={true}>
                                                 <span>
                                                 1
                                                 </span>
-                                        </AttentionSeeker>
-
                                     </AttentionSeeker>
 
-                                </div>
-                            {/*</div>*/}
-                            {/*<h3>*/}
-                            {<AttentionSeeker effect={'rubberBand'} delay={2500} triggerOnce={true}><h3>Years of <span>Experiance</span></h3>
+                                </AttentionSeeker>
+
+                            </div>
+                            {<AttentionSeeker effect={'rubberBand'} delay={2500} triggerOnce={true}>
+                                <h3>Years of <span>Experiance</span></h3>
                             </AttentionSeeker>}
-                            {/*	Years of <span>Experiance</span>*/}
-                            {/*</h3>*/}
                         </div>
 
                     </div>
                 </Fade>
-                <Fade direction={'up'}>
+                <Fade direction={'up'} triggerOnce={true}>
                     <div className={aboutMeStyle.wrapperBlock2}>
                         <AbloutMeBlock title={'Name'} blockText={'Alexandr Kuchutkov'}/>
                         <AbloutMeBlock title={'Email'} blockText={'kashim007@mail.ru'}/>

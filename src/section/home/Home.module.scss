@@ -10,6 +10,7 @@
 
   .textWrapper {
     margin: 40px 0;
+    max-width: 580px ;
 
     .title {
       /*font-size: 1.75rem;*/
@@ -80,7 +81,7 @@
         font-size: calc(1.75rem);
       }
       .subtitle {
-        font-size: calc(1.75rem + 4.45vw);
+        font-size: calc(1.75rem + 3.1vw);
       }
     }
   }
@@ -91,11 +92,13 @@
     }
     .textWrapper {
       .title {
-        font-size: calc(1.3125rem);
+        //font-size: calc(1.3125rem);
+        font-size: calc(1.7rem);
       }
 
       .subtitle {
         font-size: calc(1.3125rem + 3.5vw);
+        font-stretch: ultra-condensed;
       }
 
       .subsubtitle {
@@ -112,13 +115,13 @@
     }
 
   }
-  @media screen and (max-width: 813px) {
+  @media screen and (max-width: 846px) {
     .homeImage {
       width: 300px;
       height: 300px;
     }
   }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 783px) {
     flex-direction: column-reverse;
     justify-content: center;
     .textWrapper {
