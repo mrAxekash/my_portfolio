@@ -1,4 +1,4 @@
-@import "./src/common/sass/variables";
+@import "../../common/sass/variables";
 
 .aboutMe {
   padding: 6.5rem 0;
@@ -43,10 +43,10 @@
       div {
         position: relative;
         width: 175px;
-        height: 175px;
+        //height: 175px;
 
         div {
-          position: absolute;
+          //position: absolute;
           background-color: $primaryColor;
           border-radius: 100%;
           width: 175px;
@@ -62,15 +62,21 @@
           }
         }
       }
-
-      h3 {
-        font-size: 1.7rem;
-        font-weight: 500;
-
-        span {
-          font-weight: 900;
+      div {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        h3 {
+          font-size: 1.7rem;
+          font-weight: 500;
+          margin-bottom: 0;
+          span {
+            font-weight: 900;
+          }
         }
       }
+
+
 
     }
     @media screen and (max-width: 992px) {

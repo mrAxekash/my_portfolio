@@ -9,6 +9,7 @@ import cssIcon from '../../assets/icons/cssIcon.svg'
 import jsIcon from '../../assets/icons/jsIcon.svg'
 import tsIcon from '../../assets/icons/tsIcon.svg'
 import reactIcon from '../../assets/icons/reactIcon.svg'
+import {Fade, Zoom} from "react-awesome-reveal";
 
 
 type Props = {
@@ -25,18 +26,32 @@ export const Skills = (props: Props) => {
     let reduxDescr = "Redux is a pattern and library for managing and updating application state, using events called \"actions\". It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion."
 
 
-
     return (
         <section className={skillsStyle.skills}>
             <div className={containerStyle.container}>
-                <SectionTItle sectionTitle={'Skills'} header={'I work in ...'} textColor={'black'}/>
+                <Fade direction={'up'} triggerOnce={true}>
+                    <SectionTItle sectionTitle={'Skills'} header={'I work in ...'} textColor={'black'}/>
+                </Fade>
+
                 <div className={skillsStyle.skills_wrapper}>
-                    <Skill imgText={"React"} title={"React"} description={reactDescr} icon={reactIcon}/>
-                    <Skill imgText={"Redux"} title={"Redux"} description={reduxDescr} icon={reduxIcon} />
-                    <Skill imgText={"JS"} title={"JS"} description={jsDescr} icon={jsIcon}/>
-                    <Skill imgText={"Typescript"} title={"Typescript"} description={typescriptDescr} icon={tsIcon}/>
-                    <Skill imgText={"HTML"} title={"HTML"} description={htmlDescr} icon={htmlIcon} />
-                    <Skill imgText={"CSS"} title={"CSS"} description={cssDescr} icon={cssIcon} />
+                    <Fade direction={'up'} triggerOnce={true}>
+                        <Skill imgText={"React"} title={"React"} description={reactDescr} icon={reactIcon}/>
+                    </Fade>
+                    <Fade direction={'up'} triggerOnce={true}>
+                        <Skill imgText={"Redux"} title={"Redux"} description={reduxDescr} icon={reduxIcon} />
+                    </Fade>
+                    <Fade direction={'up'} triggerOnce={true}>
+                        <Skill imgText={"JS"} title={"JS"} description={jsDescr} icon={jsIcon}/>
+                    </Fade>
+                    <Fade direction={'up'} triggerOnce={true}>
+                        <Skill imgText={"Typescript"} title={"Typescript"} description={typescriptDescr} icon={tsIcon}/>
+                    </Fade>
+                    <Fade direction={'up'} triggerOnce={true}>
+                        <Skill imgText={"HTML"} title={"HTML"} description={htmlDescr} icon={htmlIcon} />
+                    </Fade>
+                    <Fade direction={'up'} triggerOnce={true}>
+                        <Skill imgText={"CSS"} title={"CSS"} description={cssDescr} icon={cssIcon} />
+                    </Fade>
                 </div>
             </div>
         </section>

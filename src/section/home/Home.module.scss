@@ -1,4 +1,4 @@
-@import "./src/common/sass/variables";
+@import "../../common/sass/variables";
 
 .home {
   display: flex;
@@ -22,7 +22,7 @@
       margin: 0;
       font-size: 6rem;
       font-weight: 600;
-      line-height: 1;
+      line-height: 1.5;
     }
 
     .subsubtitle {

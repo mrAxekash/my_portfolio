@@ -1,4 +1,4 @@
-@import './src/common/sass/variables';
+@import '../common/sass/variables';
 
 .header{
     position: fixed;
@@ -8,7 +8,7 @@
     background-color: $secondTextColor;
     display: flex;
     align-items: center;
-    z-index: 5;
+    z-index: 10;
     .wrapper {
         width: 100%;
         height: 100%;
