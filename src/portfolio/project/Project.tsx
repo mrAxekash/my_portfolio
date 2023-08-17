@@ -22,7 +22,6 @@ export const Project = (props: ProjectPropsType) => {
             }}
         >
             {openComponent && <ProjectOverlay />}
-
         </div>
     );
 };

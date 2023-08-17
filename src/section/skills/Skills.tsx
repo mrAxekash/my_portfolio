@@ -29,27 +29,27 @@ export const Skills = (props: Props) => {
     return (
         <section className={skillsStyle.skills}>
             <div className={containerStyle.container}>
-                <Fade direction={'up'} triggerOnce={true}>
+                <Fade direction={'up'} triggerOnce={true} cascade={true}>
                     <SectionTItle sectionTitle={'Skills'} header={'I work in ...'} textColor={'black'}/>
                 </Fade>
 
                 <div className={skillsStyle.skills_wrapper}>
-                    <Fade direction={'up'} triggerOnce={true}>
+                    <Fade direction={'up'} triggerOnce={true} cascade={true} damping={0.5}>
                         <Skill imgText={"React"} title={"React"} description={reactDescr} icon={reactIcon}/>
                     </Fade>
-                    <Fade direction={'up'} triggerOnce={true}>
+                    <Fade direction={'up'} triggerOnce={true} cascade={true} damping={0.5}>
                         <Skill imgText={"Redux"} title={"Redux"} description={reduxDescr} icon={reduxIcon} />
                     </Fade>
-                    <Fade direction={'up'} triggerOnce={true}>
+                    <Fade direction={'up'} triggerOnce={true} cascade={true} damping={0.5}>
                         <Skill imgText={"JS"} title={"JS"} description={jsDescr} icon={jsIcon}/>
                     </Fade>
-                    <Fade direction={'up'} triggerOnce={true}>
+                    <Fade direction={'up'} triggerOnce={true} cascade={true} damping={0.5}>
                         <Skill imgText={"Typescript"} title={"Typescript"} description={typescriptDescr} icon={tsIcon}/>
                     </Fade>
-                    <Fade direction={'up'} triggerOnce={true}>
+                    <Fade direction={'up'} triggerOnce={true} cascade={true} damping={0.5}>
                         <Skill imgText={"HTML"} title={"HTML"} description={htmlDescr} icon={htmlIcon} />
                     </Fade>
-                    <Fade direction={'up'} triggerOnce={true}>
+                    <Fade direction={'up'} triggerOnce={true} cascade={true} damping={0.5}>
                         <Skill imgText={"CSS"} title={"CSS"} description={cssDescr} icon={cssIcon} />
                     </Fade>
                 </div>
