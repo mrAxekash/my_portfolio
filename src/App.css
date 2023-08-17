@@ -6,6 +6,7 @@
 .App {
   text-align: center;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 .App-logo {

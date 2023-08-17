@@ -1,10 +1,10 @@
-@import "./src/common/sass/variables";
+@import "../common/sass/variables";
 
 .nav {
   width: 45vw;
   display: flex;
   justify-content: space-between;
-
+  scroll-behavior: smooth;
   a {
     font-weight: 600;
     text-decoration: none;

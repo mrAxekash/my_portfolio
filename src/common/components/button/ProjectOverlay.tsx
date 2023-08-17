@@ -13,6 +13,6 @@ export const ProjectOverlay = (props: Props) => {
                 <h4 className={projectOverlay.header}>Detailed project 1</h4>
                 <span className={projectOverlay.subheader}>Category</span>
             </a>
-        // </Fade>
+        </Fade>
     );
 };

@@ -8,7 +8,7 @@ type Props = {};
 export const Main = (props: Props) => {
 
     return (
-        <div className={mainStyles.main}>
+        <div className={mainStyles.main} id={'main'}>
             <div className={containerStyle.container}>
                 <Home/>
             </div>
