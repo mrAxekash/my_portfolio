@@ -1,4 +1,4 @@
-@import "./src/common/sass/variables";
+@import "../../common/sass/variables";
 
 .contact {
   padding: 6.5rem 0;
@@ -12,12 +12,14 @@
   .formStyle {
     display: flex;
     justify-content: center;
+
     .formWrapper {
       display: flex;
       align-items: start;
       flex-direction: column;
       width: 660px;
     }
+
     textarea {
       width: 260px;
     }
@@ -37,8 +39,16 @@
     }
   }
 
-}
+  @media screen and (max-width: 670px) {
+    .formStyle {
+      .formWrapper {
+        width: 90vw;
+      }
+    }
 
+
+  }
+}
 
 
 /*.formStyle label {*/

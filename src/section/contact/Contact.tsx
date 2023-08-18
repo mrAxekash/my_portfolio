@@ -7,8 +7,8 @@ import {Fade} from "react-awesome-reveal";
 type Props = {};
 export const Contact = (props: Props) => {
     return (
-        <section className={contactStyle.contact}>
-            <div className={containerStyle.container}>
+        <section className={contactStyle.contact} id={'contact'}>
+            <div className={containerStyle.container} >
                 <Fade direction={'up'} triggerOnce={true}>
                     <h2 className={contactStyle.title}>
                         Contact me

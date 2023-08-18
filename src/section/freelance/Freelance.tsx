@@ -9,7 +9,7 @@ import {Link} from "react-scroll";
 type Props = {};
 export const Freelance = (props: Props) => {
 	return (
-		<div style={{background: `url(${backGImage}) center center/cover no-repeat`}} id={'contact'}
+		<div style={{background: `url(${backGImage}) center center/cover no-repeat`}} id={'freelance'}
 			 className={freelanceStyle.freelance}>
 			<div className={containerStyle.container}>
 				<Fade direction={'up'} triggerOnce={true}>

@@ -28,7 +28,7 @@ export const Skills = (props: Props) => {
 
     return (
         <section className={skillsStyle.skills} id={'skills'}>
-            <div className={containerStyle.container}>
+            <div className={containerStyle.container} >
                 <Fade direction={'up'} triggerOnce={true} cascade={true}>
                     <SectionTItle sectionTitle={'Skills'} header={'I work in ...'} textColor={'black'}/>
                 </Fade>

@@ -13,7 +13,7 @@ type Props = {};
 export const Portfolio = (props: Props) => {
     return (
         <section className={portfolioStyle.section} id={'portfolio'}>
-            <div className={containerStyle.container}>
+            <div className={containerStyle.container} >
                 <Fade direction={'up'} triggerOnce={true}>
                     <SectionTItle sectionTitle={'Portfolio'} header={'Some of my most recent project'}
                                   textColor={'black'}/>

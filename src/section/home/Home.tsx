@@ -12,7 +12,6 @@ type Props = {};
 export const Home = (props: Props) => {
     return (
         <section className={homeStyle.home}>
-
             <div className={homeStyle.textWrapper}>
                 <h1 className={homeStyle.title}>I AM OPEN TO WORK AS A</h1>
                 <ReactTypingEffect text={['FRONTEND', 'DEVELOPER']} className={homeStyle.subtitle} speed={150}

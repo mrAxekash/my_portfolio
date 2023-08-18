@@ -9,9 +9,9 @@ type Props = {};
 export const AboutMe = (props: Props) => {
     return (
         <section className={aboutMeStyle.aboutMe} id={'aboutMe'}>
-            <div className={containerStyle.container}>
-                <Fade direction={'up'} triggerOnce={true}>
-                    <SectionTItle sectionTitle={'About me'} header={'Know me more'} textColor={'black'}/>
+            <div className={containerStyle.container} >
+                <Fade direction={'up'} triggerOnce={true} >
+                    <SectionTItle sectionTitle={'About me'} header={'Know me more'} textColor={'black'} />
                 </Fade>
 
                 <Fade direction={'up'} triggerOnce={true}>

@@ -14,8 +14,6 @@ import headerStyle from './header/Header.module.scss'
 function App() {
     return (
         <div className="App">
-
-            {/*<Zoom triggerOnce={true} >*/}
             <Fade triggerOnce={true} className={headerStyle.header}>
                 <Header/>
             </Fade>
@@ -28,7 +26,6 @@ function App() {
                 <Contact/>
                 <Footer/>
             </Fade>
-            {/*</Zoom>*/}
         </div>
     );
 }

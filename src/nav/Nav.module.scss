@@ -12,7 +12,7 @@
     text-transform: uppercase;
     font-size: 1.1rem;
     position: relative;
-
+    margin: 0 5px 0 5px;
     &::before {
       content: '';
       position: absolute;
@@ -30,10 +30,39 @@
       }
     }
   }
-
-  @media screen and (max-width: 920px) {
-    width: 30vw;
+  .active {
+    &::before {
+      transform: scale(1);
+    }
+  }
+  @media screen and (max-width: 1187px) {
+    width: 26vw;
     flex-wrap: wrap;
+    a {
+      font-size: 1.05rem;
+    }
+  }
+  @media screen and (max-width: 1137px) {
+    width: 27vw;
+
+  }
+  @media screen and (max-width: 1094px) {
+    width: 29vw;
+
+  }
+  @media screen and (max-width: 1019px) {
+    width: 31vw;
+  }
+  @media screen and (max-width: 953px) {
+    width: 33vw;
+  }
+  @media screen and (max-width: 895px) {
+    a {
+      font-size: 1.8vw;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    width: 34vw;
   }
   @media screen and (max-width: 690px) {
     display: none;
