@@ -12,7 +12,11 @@ export const Nav = (props: Props) => {
             <Link to={"portfolio"} smooth={true} activeClass={navStyle.active} spy={true} offset={1} duration={500} >Portfolio</Link>
             <Link to={"freelance"} smooth={true} activeClass={navStyle.active} spy={true} offset={1} duration={500} >Freelance</Link>
             <Link to={"contact"} smooth={true} activeClass={navStyle.active} spy={true} offset={1} duration={500} >Contact</Link>
-
+            <div className={navStyle.burgerWrapper}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     );
 };

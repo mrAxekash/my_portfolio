@@ -35,6 +35,13 @@
       transform: scale(1);
     }
   }
+  .burgerWrapper {
+    width: 25px;
+    span {
+      display: block;
+      
+    }
+  }
   @media screen and (max-width: 1187px) {
     width: 26vw;
     flex-wrap: wrap;
